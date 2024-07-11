@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CZ:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+
+* {
+    transition: all 300ms linear;
+}
+
+.bg-img {
+    background-image: url(../img/hero-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.pranteb {
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 30px;
+    padding: 10px;
+
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+.in-email {
+    font-family: "Playwrite DK Uloopet", cursive;
+    max-width: 80%;
+    width: 100%;
+    height: 60px;
+    border-radius: 100px;
+    padding: 20px;
+    outline: none;
+    border: 1px solid white;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+
+}
+
+::placeholder {
+    color: white;
+}
+
+.Btn-login {
+    font-family: "Playwrite DK Uloopet", cursive;
+    width: 80%;
+    height: 60px;
+    background-color: blue;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+#con {
+    width: 24px;
+    height: 24px;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.rem-me {
+    font-family: "Playwrite DK Uloopet", cursive;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.forgot {
+    font-family: "Playwrite DK Uloopet", cursive;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.header-text {
+    font-family: "Playwrite DK Uloopet", cursive;
+    font-weight: 900;
+}
+
+.login-footer-text {
+    font-family: "Playwrite DK Uloopet", cursive;
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+}
+
+.login-footer-text::after {
+    content: "";
+    position: absolute;
+    width: 48%;
+    left: 0;
+    top: 42%;
+
+    height: 2px;
+    background-color: whitesmoke;
+
+}
+
+.login-footer-text::before {
+    content: "";
+    position: absolute;
+    width: 48%;
+    right: 0;
+    top: 42%;
+
+    height: 2px;
+    background-color: whitesmoke;
+
+}
+
+.w-45 {
+    width: 45%;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.google,
+.facebook {
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid;
+
+}
+
+.login-text {
+    font-family: "Playwrite DK Uloopet", cursive;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.d-n {
+    display: none !important;
+}
+
+.d-f {
+    display: flex !important;
+}
+
+.login-header-text {
+    font-size: 26px;
+    font-family: "Playwrite DK Uloopet", cursive;
+
+}
+
+
+
+
+@media (max-width:992px) {
+
+    .in-email,
+    .forgot,
+    .rem-me,
+    .Btn-login {
+        font-size: 22px;
+    }
+
+    .login-header-text {
+        font-size: 24px;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .in-email,
+    .forgot,
+    .rem-me,
+    .Btn-login {
+        font-size: 18px;
+    }
+
+    .login-header-text {
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width:576px) {
+
+    .in-email,
+    .forgot,
+    .rem-me,
+    .Btn-login {
+        font-size: 12px;
+    }
+
+    .login-header-text {
+        font-size: 18px;
+    }
+
+
+}
