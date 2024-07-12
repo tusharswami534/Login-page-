@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+CZ:wght@100..400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 * {
     transition: all 300ms linear;
@@ -30,7 +29,7 @@
 }
 
 .in-email {
-    font-family: "Playwrite DK Uloopet", cursive;
+    font-family: "Nunito Sans", sans-serif;
     max-width: 80%;
     width: 100%;
     height: 60px;
@@ -49,7 +48,7 @@
 }
 
 .Btn-login {
-    font-family: "Playwrite DK Uloopet", cursive;
+    font-family: "Nunito Sans", sans-serif;
     width: 80%;
     height: 60px;
     background-color: blue;
@@ -71,14 +70,14 @@
 }
 
 .rem-me {
-    font-family: "Playwrite DK Uloopet", cursive;
+    font-family: "Nunito Sans", sans-serif;
     color: white;
     font-size: 24px;
     font-weight: 600;
 }
 
 .forgot {
-    font-family: "Playwrite DK Uloopet", cursive;
+    font-family: "Nunito Sans", sans-serif;
     color: white;
     font-size: 24px;
     text-decoration: none;
@@ -86,12 +85,12 @@
 }
 
 .header-text {
-    font-family: "Playwrite DK Uloopet", cursive;
+    font-family: "Nunito Sans", sans-serif;
     font-weight: 900;
 }
 
 .login-footer-text {
-    font-family: "Playwrite DK Uloopet", cursive;
+    font-family: "Nunito Sans", sans-serif;
     font-size: 22px;
     color: white;
     font-weight: 500;
@@ -103,7 +102,6 @@
     width: 48%;
     left: 0;
     top: 42%;
-
     height: 2px;
     background-color: whitesmoke;
 
@@ -139,7 +137,7 @@
 }
 
 .login-text {
-    font-family: "Playwrite DK Uloopet", cursive;
+    font-family: "Nunito Sans", sans-serif;
     color: black;
     font-size: 20px;
     font-weight: 400;
@@ -155,9 +153,22 @@
 
 .login-header-text {
     font-size: 26px;
-    font-family: "Playwrite DK Uloopet", cursive;
+    font-family: "Nunito Sans", sans-serif;
 
 }
+
+.hover-sign-up {
+    width: 100px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: transparent;
+    
+}
+.min-vh-90{
+    min-height: 94vh;
+}
+
+
 
 
 
@@ -175,6 +186,50 @@
         font-size: 24px;
     }
 
+    .login-text {
+        font-size: 18px;
+    }
+
+    #con {
+        width: 20px;
+        height: 20px;
+
+    }
+
+    .login-footer-text::after {
+        content: "";
+        position: absolute;
+        width: 43%;
+        left: 0;
+        top: 42%;
+        height: 2px;
+        background-color: whitesmoke;
+
+    }
+
+    .login-footer-text::before {
+        content: "";
+        position: absolute;
+        width: 43%;
+        right: 0;
+        top: 42%;
+        height: 2px;
+        background-color: whitesmoke;
+
+    }
+
+    .pranteb {
+        width: 80px;
+        height: 40px;
+        padding: 8px;
+    }
+
+    .circle {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+
 }
 
 @media (max-width:768px) {
@@ -190,6 +245,32 @@
         font-size: 22px;
     }
 
+    .login-text {
+        font-size: 16px;
+    }
+
+    .gap-mmd-2 {
+        gap: 16px !important;
+    }
+
+    #con {
+        width: 16px;
+        height: 16px;
+
+    }
+
+    .pranteb {
+        width: 70px;
+        height: 40px;
+        padding: 8px;
+    }
+
+    .circle {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+
 }
 
 @media (max-width:576px) {
@@ -203,6 +284,28 @@
 
     .login-header-text {
         font-size: 18px;
+    }
+
+    .login-text {
+        font-size: 16px;
+    }
+
+    #con {
+        width: 12px;
+        height: 12px;
+
+    }
+
+    .pranteb {
+        width: 50px;
+        height: 25px;
+        padding: 4px;
+    }
+
+    .circle {
+        width: 17.5px;
+        height: 17.5px;
+        border-radius: 50%;
     }
 
 
